@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./estilos/estilo.css" />
+     <!-- Compiled and minified CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+     <!--Import Google Icon Font-->
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<header> 
+        <div class="container">   
+            <div class="row cabecera">
+                <div class="col s1 logo " >
+                <Link to="/"><img src="./img/Logo.png"/>
+                </Link></div>
+                <div class="col s5 buscador">
+                    <input class="cajabusqueda" type="search" placeholder="¿Que Producto está buscando?"/>
+                    <button class="waves-effect waves-light  white"><img src="./img/search-24px.svg"/></button> 
+                </div>
+                <div class="col s2 enlaces">
+                    <Link to="/login">
+                    <button class="waves-effect waves-light light-green accent-4 login" > Login </button>
+                    </Link> 
+                <div class="col s2 contenedor">
+                    <Link to="/carrito"><img src="./img/carrito1.png"/> 
+                        <div class="textoencima">(2) </div>
+                    </Link>
+                    </div>
+                </div>
+            </div>
+            <div class="row categorias">
+                <div class="col s2">
+                    <h5>Categorias</h5>
+                </div>
+                <div class="col s2">
+                <a class="waves-effect waves-light red darken-2">
+                    <img  class="flecha" src="./img/flecha-hacia-abajo.svg"/>
+                </a>   
+                </div>
+            </div>
+        </div>
+</header>
+
+<body >    
+   <main class="container cuerpo">
+
+    <div class="row productos">
+        <div class="col s4">
+           <h2>Poner listado deplegable dinamico con JS, crear un jason e ir agregando por seleccion el breadcrumb</h2>      
+        </div>
+        <div class="col s8">
+            <h2>generar cards dinamicos para la categoria seleccionada</h2>
+        </div>
+
+    </div>  
+
+   </main>
+
+
+
+  <div class=container>
+   <footer class="page-footer light-green accent-4">
+    <div id="pie" class="piepag">
+	
+        <div class="contienepie">  
+
+                 <div class="nosotros">
+                         <ul>
+                             <h4>Nosotros</h4>
+                             <li><Link to="/historia"> Nuestra Historia</Link> <br/></li>
+                             <li><Link to="/comunidad"> Comunidad Mi Caserito</Link></li>
+                             <a url=""> <img></img> </a>
+                             <a url=""> <img></img> </a>
+                             <a url=""> <img></img> </a>
+                         </ul>              
+                 </div><br/>
+
+                 <div class="contactenos">          
+                         <ul>
+                             <h4>Contáctenos</h4>
+                             <li> delivery@MiCaserito.com.pe</li>
+                             <li> 01-678-0000 </li>
+                             <li> 999-888-777 </li>
+                         </ul>
+                 </div>
+
+                 <div class="ubicanos">
+                     <h4>Ubícanos</h4>
+                         <img></img>
+                 </div>
+
+                 <div class="transparencia">
+                         <ul>
+                             <h4>Transparencia</h4>
+                             <li> Libro de Reclamaciones</li>
+                             <li> Política de Privacidad </li>
+                             <li> Términos y Condiciones </li>
+                         </ul>
+                 </div>
+     
+       </div>
+    
+  
+       <div class="footer-copyright">    
+         <p class="copyright"> MiCaserito - Todos los derechos reservados &copy; 2020</p> 
+       </div>  
+
+   </div>	
+  </footer>
+</div>
+
+
+
+
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+   
+
+
+</html>

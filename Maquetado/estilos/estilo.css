@@ -1,0 +1,266 @@
+header {
+    background-color: #FFFFFF;
+  }
+  
+  .cabecera {
+    width: 100%;
+    height:60px;
+    margin: 0 auto;
+    display: flex;
+    padding: 10px 0;
+    
+  }
+  
+  .logo {
+    width: 20%;
+    color: #FFF;  
+    text-decoration: none;
+    margin-top:-10px;
+    justify-content: flex-start;
+  }
+  
+  .buscador {
+    width: 50%;
+    display:flex;
+  
+  }
+
+  .cajabusqueda {
+    width:100%;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    
+    padding: 13px;
+    font-size: 14px;
+    border: 1px solid #FF0000;    
+  }
+
+  .buscador button {
+    background: #FFF;
+    color: #FFF;
+     
+    border: 0px solid #FF0000;
+    border-left: 20px;
+    padding: 10px;
+  }
+
+ 
+
+  .enlaces {
+    width: 30%;
+    text-align: right;
+    color: #FFF;
+    display: flex;
+  }
+  
+  .enlaces a {
+    color: #000000;
+    text-decoration: none;
+    margin-left: 20px;
+  }
+  
+  .enlaces button{
+  background:#33CC00;  
+  color: #FFFFFF;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border: 1px solid #FFF;
+  font-size: 15px;
+  margin-top: 10px;
+  width:80px;
+  height:30px; 
+  }
+  
+  .contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: right;
+  }
+  
+  .textoencima{
+    position: absolute;
+    color:gray;
+    top:15px;
+    left:38px;
+  }
+  .categorias{
+   background-color: #e53935;  
+   width: 100%;
+   height: 50px;
+   margin-top:-10px;
+  }
+  .categorias h5{
+    padding-top: 10px;
+    color:white;
+    padding-left: 20px;
+    margin-top:-5px;
+  }
+
+  .flecha{
+      padding:10px;
+      width: 50px;
+      height:40px;
+  }
+
+  .cuerpo{
+      height: 400px;
+      background-color: white;
+  }
+
+  
+  .autenticacion{
+  
+     width: 100%;
+    display: flex;
+  }
+  
+  
+  .tucuenta {
+    width: 30%;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border: 1px solid #666666;
+    
+    text-align: center;
+    margin-left: 10px;
+  }
+  
+  
+  .tucuenta h1{
+    color:#999999;
+  
+  }
+  
+  .tucuenta input{
+    width: 250px;
+  
+  }
+  
+  .recuperatucuenta {
+    width: 0%;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border: 1px solid #666666;
+    
+    text-align: center;
+    margin-left: 10px;
+  }
+  
+  
+  .recuperatucuenta h1{
+    color:#999999;
+  
+  }
+  
+  .recuperatucuenta input{
+    width: 250px;
+  
+  
+  }
+  
+  .turegistro {
+    width: 50%;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border: 1px solid #666666;  
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .turegistro h1{
+    color:#999999;
+    text-align: center;
+  }
+  
+  .turegistro input{
+    width: 200px;
+    height: 20px;
+  }
+  
+  .turegistro select
+  {
+    width: 210px;
+    height: 26px;  
+  }
+  
+  .turegistro div
+  { 
+    width:95%;
+    display: flex;
+    justify-content: space-between;    
+    margin-left: 10px;
+    margin-right:  2px;
+      
+  }
+  
+  .turegistro button,.tucuenta    button,.recuperatucuenta    button
+  {
+   background:#33CC00;  
+   color: #FFFFFF;
+   
+   border-top-left-radius: 6px;
+   border-bottom-left-radius: 6px;
+   border-top-right-radius: 6px;
+   border-bottom-right-radius: 6px;
+  
+   border: 1px solid #FFF;
+   font-size: 15px;
+   
+  }
+  
+  
+    
+  footer{
+  background-color: #33CC00;
+  }
+
+   
+  #pie {
+    
+    margin: 0 auto;
+    padding: 10px 0;
+    color: #FFF;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .piepag{
+    height: 100%;
+  }
+  
+  .contienepie 
+  { 
+    display: flex;
+    width: 100%;
+    height: 80%;
+    /*  border: 5px solid;
+    border-color: #000000
+    */
+      
+  }
+  
+  .contienepie div  
+  {
+   flex: 1;   
+  /* border: 2px solid #FFFFFF; 
+   */
+  }
+  
+   
+  
+  @media (max-width: 768px) {
+    .cabecera, .piepag {
+      width: 100%;
+    }
+  }
